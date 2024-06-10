@@ -1,0 +1,42 @@
+#header{
+    height: 8vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: sticky;
+    background-color: rgba(238, 238, 238, 1);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  0.5rem;
+    box-sizing: border-box;
+    /* box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(128, 128, 128, 0.6); */
+    z-index: 999;
+    overflow: hidden;
+}
+
+#header .headerLeft img{
+    text-align: center;
+    height: 11vh;
+}
+#header .headerLeft a {
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+    color: rgba(21, 58, 127, 1);
+}
+
+#header .headerRight{
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+#header .headerRight a {
+    color: rgba(21, 58, 127, 1);
+    text-align: center;
+    font-size: 1.2rem;
+    /* border: 1px solid red; */
+}
